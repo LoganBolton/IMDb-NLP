@@ -1,4 +1,4 @@
 # IMDb-NLP
-IMDb NLP project to determine if a review is positive or negative.
+ML project to determine if an IMDB review is positive or negative.
 
-Current approach uses a Naive Bayes model with a success rate of 86%
+Current approach finds all the bigrams in each review and then trains a Naive Bayes model with that data. Currently has a success rate of 90%
